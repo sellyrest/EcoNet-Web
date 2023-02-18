@@ -95,7 +95,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: rgb(237, 176, 33);
+    color: rgb(44, 112, 168);
     transition: all 0.2s ease;
 }
 .navbar.sticky .logo a span{
@@ -254,11 +254,22 @@ section .title::after{
 .community .cm-content .card:hover i{
     color: #fff;
 }
-.community .cm-content .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 40px 60px 0;
-    color: #E14D2A;
+.community .cm-content .card .btn{
+    font-size: 18px;
+    font-weight: 50;
+    margin: 9px 20px 0;
+    color: #ffffff;
+    background-color: #001253;
+    border-radius: 6px;
+    width: 150px;
+    height: 20;
+    cursor: pointer;
+}
+.community .cm-content .btn:hover{
+    background: #253ba784;
+}
+.community .cm-content .btn{
+    transition: all 0.3s ease;
 }
 
 
@@ -269,7 +280,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: rgb(221, 177, 74);
+    color: rgb(252, 252, 252);
     text-decoration: none;
 }
 footer span a:hover{
