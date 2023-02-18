@@ -32,12 +32,11 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .community, .contact, footer{
+.about, .community, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, 
-.community .serv-content,
-.contact .contact-content{
+.community .cm-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -67,7 +66,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 25px;
-    color: rgb(238, 167, 74);
+    color: #E14D2A;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -83,7 +82,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: rgb(255, 213, 98);
+    background: #3E6D9C;
 }
 .navbar .max-width{
     display: flex;
@@ -173,10 +172,11 @@ section .title::after{
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 10px;
+    font-family: 'Poppins';
+    margin-bottom: 40px;
 }
 .about .about-content .right .text span{
-    color: rgb(148, 144, 141);
+    color: #FD841F;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -218,8 +218,9 @@ section .title::after{
 }
 
 .community{
-    color:rgb(224, 174, 37);
+    color:#001253;
     background: #ffffff;
+    font-family: 'Poppins';
 }
 .community .title::before{
     background: #544541;
@@ -228,41 +229,41 @@ section .title::after{
     background: #ffffff;
     content: "Community";
 }
-.community .serv-content .card{
-    width: calc(33% - 20px);
-    background: #f5f9f9;
+.community .cm-content .card{
+    width: calc(23% - 10px);
+    background: #ffffff;
     text-align: center;
-    border-radius: 6px;
-    padding: 80px 25px;
+    border-radius: 10px;
+    padding: 20px 20px;
     cursor: pointer;
     transition: all 0.2s ease;
 }
-.community .serv-content .card:hover{
-    background: rgb(255, 255, 223);
+.community .cm-content .card:hover{
+    background: #ffffff;
 }
-.community .serv-content .card .box{
+.community .cm-content .card .box{
     transition: all 0.3s ease;
 }
-.community .serv-content .card:hover .box{
-    transform: scale(1.05);
+.community .cm-content .card:hover .box{
+    transform: scale(1.60);
 }
-.community .serv-content .card i{
-    font-size: 30px;
-    color: rgb(227, 194, 96);
+.community .cm-content .card i{
+    font-size: 40px;
     transition: color 0.3s ease;
 }
-.community .serv-content .card:hover i{
+.community .cm-content .card:hover i{
     color: #fff;
 }
-.community .serv-content .card .text{
+.community .cm-content .card .text{
     font-size: 25px;
     font-weight: 500;
-    margin: 40px 7px 0;
+    margin: 40px 60px 0;
+    color: #E14D2A;
 }
 
 
 footer{
-    background: rgb(255, 213, 98);
+    background: #3E6D9C;
     padding: 15px 23px;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -311,7 +312,7 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .community .serv-content .card{
+    .community .cm-content .card{
         width: calc(50% - 10px);
         margin-bottom: 10px;
     }
@@ -322,7 +323,7 @@ footer span a:hover{
     .max-width{
         padding: 0 23px;
     }
-    .community .serv-content .card{
+    .community .cm-content .card{
         width: 100%;
     }
 
